@@ -239,13 +239,10 @@ function create_config( )
       "settings",
       "spam",
       "spanish_lang",
-      "version",
-      "italian_lang"
+      "version"
      },
-    sudo_users = {182202091,
-    918962},
-    admin_users = {182202091,
-    918962},
+    sudo_users = {918962},
+    admin_users = {918962},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
