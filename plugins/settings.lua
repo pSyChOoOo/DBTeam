@@ -7,7 +7,7 @@
 --------------------------------------------------
 --                                              --
 --       Developers: @Josepdal & @MaSkAoS       --
---         Support: @Skneos & @Thef7HD          --
+--     Support: @Skneos,  @iicc1 & @serx666     --
 --                                              --
 --------------------------------------------------
 
@@ -400,7 +400,7 @@ local function run(msg, matches)
                 text = text..sLinkD..' '..lang_text(msg.to.id, 'links')..': '..sLink..'\n'
 
                 --Enable/disable arabic messages
-                local hash = 'antiarabe:'..msg.to.id
+                local hash = 'arabic:'..msg.to.id
                 if redis:get(hash) then
                     sArabe = allowed
                     sArabeD = '🔸'              
